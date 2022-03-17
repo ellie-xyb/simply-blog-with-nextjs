@@ -20,7 +20,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <Link href="/posts/first-post">
+        <Link href="/posts/id">
           <a>Go to posts</a>
         </Link>
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
